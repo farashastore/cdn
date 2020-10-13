@@ -1,5 +1,3 @@
-parseInt(document.getElementById("cart_badge").text());
-
 var cart_items_before = parseInt(document.getElementById("cart_badge").text());
 if (isNaN(cart_items_before)) cart_items_before = 0;
 console.log('cart_items_before: ', cart_items_before);
