@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function(){ document.querySelector
     setTimeout(function(){
       var cart_items_after = parseInt(document.getElementById("cart_badge").innerHTML);
       console.log('cart_items_after: ', cart_items_after);
-      document.location.href='https://farasha.store/cart';
+      var cart_diff = cart_items_after - cart_items_before;
+      if (cart_diff > 0) {
+          document.location.href='https://farasha.store/cart';
+		}
     },1000);
 });});
