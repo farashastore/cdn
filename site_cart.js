@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function(){ document.querySelector
       var cart_items_after = parseInt(document.getElementById("cart_badge").innerHTML);
       console.log('cart_items_after: ', cart_items_after);
       // document.location.href='https://farasha.store/cart';
-    },250);
+    },500);
 });});
